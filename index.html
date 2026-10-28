@@ -1,10 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
+    <title>Avani — Software Architect</title>
 </head>
-<body>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0b0f19; color: #f3f4f6; line-height: 1.5; -webkit-font-smoothing: antialiased;">
+
+    <!-- Floating Navigation Bar -->
+    <nav style="position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%); width: 90%; max-width: 1200px; background: rgba(17, 24, 39, 0.75); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); display: flex; justify-content: space-between; align-items: center; padding: 0.85rem 2rem; box-sizing: border-box; z-index: 1000; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+        <div style="font-size: 1.1rem; font-weight: 700; letter-spacing: -0.5px; color: #ffffff; display: flex; align-items: center; gap: 0.5rem;">
+            <span style="width: 10px; height: 10px; background-color: #6366f1; border-radius: 50%; display: inline-block;"></span>
+            Avani.arch
+        </div>
+        <div style="display: flex; gap: 2rem; align-items: center;">
+            <a href="#about" style="color: #9ca3af; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">About</a>
+            <a href="#skills" style="color: #9ca3af; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">Skills</a>
+            <a href="#hobbies" style="color: #9ca3af; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">Interests</a>
+            <a href="#contact" style="background: #ffffff; color: #0b0f19; padding: 0.5rem 1.25rem; border-radius: 9999px; text-decoration: none; font-size: 0.9rem; font-weight: 600; box-shadow: 0 2px 10px rgba(255,255,255,0.1); transition: transform 0.2s;">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; min-height: 100vh; padding: 0 1.5rem; background: radial-gradient(circle at 50% 20%, rgba(99, 102, 241, 0.15) 0%, rgba(11, 15, 25, 0) 70%); position: relative; overflow: hidden;">
+        
+        <!-- Glow background asset element -->
+        <div style="position: absolute; width: 400px; height: 400px; background: rgba(99, 102, 241, 0.08); filter: blur(100px); border-radius: 50%; z-index: 0; pointer-events: none;"></div>
+
+        <div style="z-index: 1; max-width: 800px;">
+            <div style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 0.35rem 1rem; border-radius: 9999px; font-size: 0.85rem; color: #a5b4fc; margin-bottom: 1.5rem; font-weight: 500;">
+                <span>📍 Based in Kannur, Kerala</span>
+            </div>
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin: 0 0 1.25rem 0; font-weight: 800; letter-spacing: -2px; color: #ffffff; line-height: 1.1;">
+                Architecting resilient <span style="background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">digital systems</span>.
+            </h1>
+            <p style="font-size: clamp(1rem, 2vw, 1.2rem); color: #9ca3af; max-width: 600px; margin: 0 auto 2.5rem auto; line-height: 1.6;">
+                Hi, I'm <strong style="color: #f3f4f6;">Avani</strong>, a Professional Software Architect holding an MSc in Computer Science, engineering scalable backend frameworks and clean codebase infrastructures.
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#contact" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5); color: #ffffff; padding: 0.8rem 2rem; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4); transition: transform 0.2s;">Contact Me</a>
+                <a href="#about" style="background: rgba(255, 255, 255, 0.03); color: #f3f4f6; padding: 0.8rem 2rem; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 0.95rem; border: 1px solid rgba(255, 255, 255, 0.1);">Explore Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About & Education Section -->
+    <section id="about" style="padding: 7rem 10%; background-color: #0b0f19; position: relative;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem; align-items: center;">
+                
+                <!-- Left Card Mockup / Visual Frame -->
+                <div style="background: linear-gradient(145deg, #111827, #0d1322); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 24px; padding: 2.5rem; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
+                    <div style="width: 50px; height: 50px; background: rgba(99, 102, 241, 0.15); border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1.5rem; border: 1px solid rgba(99, 102, 241, 0.3);">🎓</div>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin: 0 0 0.5rem 0;">Academic Background</h3>
+                    <p style="font-size: 1.05rem; color: #818cf8; font-weight: 600; margin: 0 0 1rem 0;">MSc in Computer Science (MSc CS)</p>
+                    <p style="color: #9ca3af; font-size: 0.95rem; margin: 0; line-height: 1.6;">Equipped with deep foundational theory in algorithms, distributed software design patterns, enterprise database structures, and systems architecture.</p>
+                </div>
+
+                <!-- Right Bio Info -->
+                <div>
+                    <h2 style="font-size: 2.25rem; font-weight: 800; color: #ffffff; margin: 0 0 1.5rem 0; letter-spacing: -1px;">Engineering robust architecture from Kannur.</h2>
+                    <p style="font-size: 1.05rem; color: #9ca3af; margin-bottom: 1.5rem; line-height: 1.7;">
+                        As a specialized <strong style="color: #f3f4f6;">Software Architect</strong>, I focus on transforming ambiguous structural needs into highly optimized, modular, and maintainable software blueprints. 
+                    </p>
+                    <p style="font-size: 1.05rem; color: #9ca3af; margin-bottom: 2rem; line-height: 1.7;">
+                        Operating remotely and locally out of <strong style="color: #f3f4f6;">Kannur</strong>, I combine strict computer science principles with practical execution strategies.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 1.25rem; border-radius: 10px; font-size: 0.9rem; font-weight: 500; color: #e5e7eb;">System Modeling</div>
+                        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 1.25rem; border-radius: 10px; font-size: 0.9rem; font-weight: 500; color: #e5e7eb;">Backend Design</div>
+                        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 1.25rem; border-radius: 10px; font-size: 0.9rem; font-weight: 500; color: #e5e7eb;">Code Quality</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Technical Skills Section -->
+    <section id="skills" style="padding: 7rem 10%; background-color: #0d121f;">
+        <div style="max-width: 1100px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.25rem; font-weight: 800; color: #ffffff; margin: 0 0 1rem 0; letter-spacing: -1px;">Technical Stack & Skills</h2>
+            <p style="color: #9ca3af; max-width: 500px; margin: 0 auto 3.5rem auto; font-size: 1rem;">Core programming tools and languages leveraged to build high-performance software environments.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+                
+                <!-- Skill 1 -->
+                <div style="background: rgba(17, 24, 39, 0.6); border: 1px solid rgba(255, 255, 255, 0.06); padding: 2rem; border-radius: 20px; text-align: left; transition: transform 0.2s, border-color 0.2s;">
+                    <div style="font-size: 1.75rem; margin-bottom: 1rem;">🐍</div>
+                    <h3 style="font-size: 1.2rem; font-weight: 700; color: #ffffff; margin: 0 0 0.5rem 0;">Python</h3>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin: 0; line-height: 1.5;">Used for backend scripting, data pipelines, backend API development, and architectural prototyping.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div style="background: rgba(17, 24, 39, 0.6); border: 1px solid rgba(255, 255, 255, 0.06); padding: 2rem; border-radius: 20px; text-align: left;">
+                    <div style="font-size: 1.75rem; margin-bottom: 1rem;">🐘</div>
+                    <h3 style="font-size: 1.2rem; font-weight: 700; color: #ffffff; margin: 0 0 0.5rem 0;">PHP</h3>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin: 0; line-height: 1.5;">Applied for dynamic web applications, robust enterprise architectures, and server-side logic management.</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div style="background: rgba(17, 24, 39, 0.6); border: 1px solid rgba(255, 255, 255, 0.06); padding: 2rem; border-radius: 20px; text-align: left;">
+                    <div style="font-size: 1.75rem; margin-bottom: 1rem;">⚡</div>
+                    <h3 style="font-size: 1.2rem; font-weight: 700; color: #ffffff; margin: 0 0 0.5rem 0;">C Language</h3>
+                    <p style="color: #9ca3af; font-size: 0.9rem; margin: 0; line-height: 1.5;">Leveraged for low-level system programming, memory handling optimization, and structural efficiency.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section (Travel & Coding) -->
+    <section id="hobbies" style="padding: 7rem 10%; background-color: #0b0f19;">
+        <div style="max-width: 1100px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 3.5rem;">
+                <h2 style="font-size: 2.25rem; font-weight: 800; color: #ffffff; margin: 0 0 1rem 0; letter-spacing: -1px;">Beyond Architecture</h2>
+                <p style="color: #9ca3af; font-size: 1rem;">Passions that fuel creativity and continuous technical curiosity.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                
+                <div style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(17, 24, 39, 0.8)); border: 1px solid rgba(255, 255, 255, 0.08); padding: 2.5rem; border-radius: 24px;">
+                    <span style="font-size: 2rem; display: block; margin-bottom: 1rem;">✈️</span>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin: 0 0 0.75rem 0;">Travel & Exploration</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; margin: 0; line-height: 1.6;">Exploring new geographies, experiencing diverse environments, and finding fresh perspectives away from the screen.</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.05), rgba(17, 24, 39, 0.8)); border: 1px solid rgba(255, 255, 255, 0.08); padding: 2.5rem; border-radius: 24px;">
+                    <span style="font-size: 2rem; display: block; margin-bottom: 1rem;">💻</span>
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: #ffffff; margin: 0 0 0.75rem 0;">Passionate Coding</h3>
+                    <p style="color: #9ca3af; font-size: 0.95rem; margin: 0; line-height: 1.6;">Writing neat, performant experimental scripts and building side-projects purely out of curiosity for clean syntax.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact" style="padding: 7rem 10%; background-color: #0d121f; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.05);">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <h2 style="font-size: 2.5rem; font-weight: 800; color: #ffffff; margin: 0 0 1rem 0; letter-spacing: -1px;">Let's Build Together</h2>
+            <p style="color: #9ca3af; margin-bottom: 2.5rem; font-size: 1.05rem; line-height: 1.6;">Have an architecture query, a system design challenge, or want to connect in Kannur? Reach out directly via the form below.</p>
+            
+            <form style="display: flex; flex-direction: column; gap: 1.25rem; text-align: left;" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent successfully.');">
+                <div>
+                    <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #9ca3af; margin-bottom: 0.5rem;">Your Name</label>
+                    <input type="text" placeholder="John Doe" required style="width: 100%; padding: 0.9rem 1rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); background-color: #111827; color: #ffffff; font-size: 0.95rem; box-sizing: border-box; outline: none;">
+                </div>
+                <div>
+                    <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #9ca3af; margin-bottom: 0.5rem;">Your Email Address</label>
+                    <input type="email" placeholder="john@example.com" required style="width: 100%; padding: 0.9rem 1rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); background-color: #111827; color: #ffffff; font-size: 0.95rem; box-sizing: border-box; outline: none;">
+                </div>
+                <div>
+                    <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #9ca3af; margin-bottom: 0.5rem;">Message</label>
+                    <textarea placeholder="Tell me about your project or inquiry..." rows="4" required style="width: 100%; padding: 0.9rem 1rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1); background-color: #111827; color: #ffffff; font-size: 0.95rem; box-sizing: border-box; outline: none; resize: vertical;"></textarea>
+                </div>
+                <button type="submit" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5); color: #ffffff; border: none; padding: 1rem; border-radius: 12px; font-weight: 600; font-size: 1rem; cursor: pointer; box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4); margin-top: 0.5rem; transition: opacity 0.2s;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 2.5rem 5%; background-color: #0b0f19; text-align: center; color: #6b7280; font-size: 0.85rem; border-top: 1px solid rgba(255, 255, 255, 0.05);">
+        <p style="margin: 0;">&copy; 2026 Avani. Designed with Dribbble-inspired modern aesthetics. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
